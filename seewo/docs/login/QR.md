@@ -42,6 +42,7 @@ https://id.seewo.com/scan/middle?uid=barcode_EB8983F7-3EED-4E29-8751-2FEFF830A85
 > https://id.seewo.com/scan/pcCheckQrcode?type=long&_=1727864084076
 
 *请求方式：GET*
+*鉴权方式：Cookie*
 
 **URL参数:**
 
@@ -49,6 +50,18 @@ https://id.seewo.com/scan/middle?uid=barcode_EB8983F7-3EED-4E29-8751-2FEFF830A85
 | ------ | ---- | ----------------- | ------ | ---- |
 | type   | str  | long              | 非必要 |      |
 | _      | num  | UNIX 毫秒级时间戳 | 非必要 |      |
+
+
+**Cookie参数**
+
+| 参数名     | 类型 | 内容                                         | 必要性 | 备注           |
+| ---------- | ---- | -------------------------------------------- | ------ | -------------- |
+| acw_tc     | str  | 在[此处](readme.md)获取                      | 必要   |                |
+| sw_sid     | str  | user_undefined                               | 非必要 |                |
+| system     | str  | mis-admin                                    | 非必要 |                |
+| systemCode | str  | mis-admin                                    | 非必要 |                |
+| referer    | str  |                                              | 非必要 |                |
+| qrkey      | str  | barcode_XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX | 必要   | 二维码唯一密钥 |
 
 **示例:**
 ```shell
