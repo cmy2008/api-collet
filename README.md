@@ -5,4 +5,4 @@
 [目录](pdd/readme.md)
 
 # 希沃
-[目录](seewo/README.md)
+[目录](https://github.com/cuitepiglin/seewo-api)
