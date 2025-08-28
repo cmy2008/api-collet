@@ -1,0 +1,3 @@
+[submodule "seewo"]
+	path = seewo
+	url = https://github.com/cuitepiglin/seewo-api
